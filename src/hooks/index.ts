@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 
+export * from "./useAsync";
+
 /**
  * 
  * @param callback 
@@ -72,3 +74,4 @@ export const useArray = <T>(initialArray:T[]) => {
     removeIndex: (index: number) => setValue([...value.slice(0, index), ...value.slice(index + 1)]),
   };
 }
+
