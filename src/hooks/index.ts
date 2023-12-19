@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react"
 
 export * from "./useAsync";
+export * from "./useAsyncHandle";
+export * from "./useMountedRef";
 
 /**
  * 
